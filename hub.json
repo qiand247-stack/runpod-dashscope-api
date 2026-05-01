@@ -1,0 +1,16 @@
+{
+  "name": "Alibaba-Dashscope-LLM-Chat-API",
+  "description": "OpenAI-compatible Qwen API proxy for RunPod Serverless",
+  "version": "1.0.0",
+  "author": "qiand247-stack",
+  "license": "MIT",
+  "tags": ["LLM", "Chat", "API", "通义千问", "阿里云"],
+  "input": {
+    "model": {"type": "string", "default": "qwen-turbo"},
+    "messages": {"type": "array"}
+  },
+  "exampleInput": {
+    "model": "qwen-turbo",
+    "messages": [{"role": "user", "content": "你好，测试一下"}]
+  }
+}
