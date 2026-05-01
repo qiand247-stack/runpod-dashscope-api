@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Qwen API Test",
+      "input": {
+        "model": "qwen-turbo",
+        "messages": [{"role": "user", "content": "你好，测试一下"}]
+      },
+      "expected": {
+        "contains": "你好"
+      }
+    }
+  ]
+}
