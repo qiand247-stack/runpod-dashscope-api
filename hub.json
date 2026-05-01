@@ -1,0 +1,16 @@
+{
+  "name": "Alibaba-Dashscope-LLM-Chat-API",
+  "description": "兼容OpenAI格式的阿里云通义千问API转发服务，支持多轮对话，低延迟高可用",
+  "version": "1.0.0",
+  "author": "qiand247-stack",
+  "license": "MIT",
+  "tags": ["LLM", "Chat", "API", "通义千问", "阿里云"],
+  "input": {
+    "model": {"type": "string", "default": "qwen-turbo", "description": "模型名称"},
+    "messages": {"type": "array", "description": "对话历史"}
+  },
+  "exampleInput": {
+    "model": "qwen-turbo",
+    "messages": [{"role": "user", "content": "你好，测试一下"}]
+  }
+}
